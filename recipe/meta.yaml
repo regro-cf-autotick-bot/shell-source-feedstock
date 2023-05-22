@@ -1,13 +1,13 @@
 {% set name = "shell-source" %}
-{% set version = "1.0.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/shell-source-{{ version }}.tar.gz
-  sha256: 9fde980703ec882432ba3dfff2741d50571b73e55c1ad7cda2d71185dc0f70e9
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: d72a41b313ce9c160340366648e041aade67e0e8f7976af6f9c727bdf780d685
 
 build:
   noarch: python
