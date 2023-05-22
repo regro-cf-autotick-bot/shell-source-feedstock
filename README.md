@@ -1,11 +1,11 @@
-About shell-source
-==================
+About shell-source-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shell-source-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/abrahammurciano/python-shell-source
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/shell-source-feedstock/blob/main/LICENSE.txt)
 
 Summary: A python module for sourcing variables from shell scripts
 
