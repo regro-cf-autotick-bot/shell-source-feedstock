@@ -1,5 +1,5 @@
 {% set name = "shell-source" %}
-{% set version = "2.0.1" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9cf0483bec7451bca5b004789a679957473f96f7743f635e17f956fe04cacd02
+  sha256: adbc3967c01aad4d8e94fa0c5a49dc6782689c003b639fc9af0f5ea822ab0543
 
 build:
   noarch: python
